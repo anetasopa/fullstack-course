@@ -1,0 +1,53 @@
+version: '2'
+
+services:
+
+  app_front:
+    container_name: app_front
+    image: node:14
+    volumes:
+      - './front:/app'
+    tty: true
+    ports:
+      - 3002:3002
+    command: >
+      bash -c " echo cd to app
+      && cd app
+      && npm i
+      && npm run dev"
+
+  dragon_api:
+    container_name: 'dragon_api'
+    image: node:15
+    ports:
+      - 3010:3010
+    volumes:
+      - './backend:/api'
+    tty: true
+    environment:
+      DB_HOST: dragon_db
+      PASSWORD: ''
+      ENV: dev
+    depends_on:
+      - "dragon_db"
+    links:
+      - dragon_db
+    command: >
+      bash -c " echo cd to api
+      && cd api
+      && npm i
+      && npm run initDB
+      && npm run dev"
+
+  dragon_db:
+    image: postgres:11
+    container_name: "dragon_db"
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "54320:5432"
+    volumes:
+      - dragon_db_data:/var/lib/postgresql/data
+
+volumes:
+  dragon_db_data:
