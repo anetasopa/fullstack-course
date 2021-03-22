@@ -27,7 +27,8 @@ services:
     environment:
       DB_HOST: dragon_db
       PASSWORD: ''
-      ENV: dev
+      NODE_ENV: dev
+      PORT: 3010
     depends_on:
       - "dragon_db"
     links:
