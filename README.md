@@ -3,7 +3,7 @@ Because I added sub-repositories to deploy it to heroku and github
 does not display it I created separate repositories:
 - front: https://github.com/butterfly-123/fullstack-course-front
 - backend: https://github.com/butterfly-123/fullstack-course-backend
-- link to page: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-210325
+- link to page: https://dragon-fullstack-front.herokuapp.com/login
 
 # Deploy to heroku and configuration
 
