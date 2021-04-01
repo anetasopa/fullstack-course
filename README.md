@@ -8,13 +8,13 @@ does not display it I created separate repositories:
 # Deploy to heroku and configuration
 **Heroku** - allows developers to quickly and almost painlessly deploy an application on a web server. It also provides a lot of plugins that you can integrate into your application.
 
-1. Create the project.
-2. Create a new repository in version control system (GitHub).
-3. Link the repository with Heroku.
+**1. Create the project.**
+**2. Create a new repository in version control system (GitHub).**
+**3. Link the repository with Heroku.**
 At this step, we can link the repository from Github to our Heroku application.
 * First, create a new application on Heroku.
 
-![image](https://user-images.githubusercontent.com/58802893/112967853-fc83c180-914b-11eb-9e68-e0397b2a301e.png)
+          ![image](https://user-images.githubusercontent.com/58802893/112967853-fc83c180-914b-11eb-9e68-e0397b2a301e.png)
 
 * Once the application has been created, a window similar to this should appear.
 ![image](https://user-images.githubusercontent.com/58802893/112967957-17563600-914c-11eb-85ae-da7c07c3aad8.png)
@@ -30,7 +30,8 @@ If you want, you can also select the option Enable Automatic Deploys which will 
 * Once the application has been deployed, you can click on View to open your application.
 ![image](https://user-images.githubusercontent.com/58802893/112969873-f393ef80-914d-11eb-9197-89f1db8d44ad.png)
 
-4. Configure Heroku to properly run the application.
+**4. Configure Heroku to properly run the application.**
+
 If you open the application at this point, you should see something like this:
 ![image](https://user-images.githubusercontent.com/58802893/113265434-6cbd4f00-92d4-11eb-9dad-e64a4659621b.png)
 
@@ -41,7 +42,7 @@ To update our application, all we need to do is push a new commit to GitHub. If 
 Once the application is rebuilt, we should see it working like so:
 ![image](https://user-images.githubusercontent.com/58802893/113265617-a5f5bf00-92d4-11eb-8421-6477ce85f3a4.png)
 
-5. How to add an add-on.
+**5. How to add an add-on.**
 Let's see how to add a new resource to your project. First, we'll go to Resources, and from there we'll add a new tool for testing.
 
 Go ahead and click on Find more add-ons and then search for Loadmill.
