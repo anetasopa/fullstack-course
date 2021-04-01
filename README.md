@@ -13,6 +13,7 @@ does not display it I created separate repositories:
 3. Link the repository with Heroku.
 At this step, we can link the repository from Github to our Heroku application.
 * First, create a new application on Heroku.
+
 ![image](https://user-images.githubusercontent.com/58802893/112967853-fc83c180-914b-11eb-9e68-e0397b2a301e.png)
 
 * Once the application has been created, a window similar to this should appear.
