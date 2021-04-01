@@ -11,6 +11,7 @@ does not display it I created separate repositories:
 1. **Create the project.**
 2. **Create a new repository in version control system (GitHub).**
 3. **Link the repository with Heroku.**
+
 At this step, we can link the repository from Github to our Heroku application.
 * First, create a new application on Heroku.
 
