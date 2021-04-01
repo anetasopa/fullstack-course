@@ -139,11 +139,11 @@ It's the basis of communication over the internet:
 * **.then** handler, with callback to handle resolve value
 * **.catch** handler, with a callback to handle err value
 
-#####Resolve:
+Resolve:
 
 Asynchronous functionality has succeeded. Return value. 
 
-#####For exapmle:
+For exapmle:
 ```
 const examplePromise = new Promise((resolve, reject) => {
     const success = true;
