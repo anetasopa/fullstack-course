@@ -20,7 +20,7 @@ At this step, we can link the repository from Github to our Heroku application.
 * Once the application has been created, a window similar to this should appear.
 ![image](https://user-images.githubusercontent.com/58802893/112967957-17563600-914c-11eb-85ae-da7c07c3aad8.png)
 
-* Now, if you look at the navigation at the top, you'll see  Overview, Resources, Deploy, Metrics  and so on. Be sure that Deploy is selected. Then on the second row, click on the GitHub icon.
+* Now, if you look at the navigation at the top, you'll see  Overview, Resources, Deploy, Metrics  and so on. Be sure that Deploy is selected. Then click on the GitHub icon.
 ![image](https://user-images.githubusercontent.com/58802893/112968115-410f5d00-914c-11eb-9a1c-168f4aca2f38.png)
 
 Search for the desired application, which is demo-deploy-app-09 in our case. Then click Connect.
@@ -28,6 +28,7 @@ Search for the desired application, which is demo-deploy-app-09 in our case. The
 ![image](https://user-images.githubusercontent.com/58802893/112969754-d7904e00-914d-11eb-9d88-1d2cfb5dd0a0.png)
 
 If you want, you can also select the option Enable Automatic Deploys which will automatically pull the code from your Github repository every time you make a push to that repository.
+
 * Once the application has been deployed, you can click on View to open your application.
 ![image](https://user-images.githubusercontent.com/58802893/112969873-f393ef80-914d-11eb-9197-89f1db8d44ad.png)
 
