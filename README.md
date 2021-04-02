@@ -1,9 +1,12 @@
+# Demo App
+https://dragon-fullstack-front.herokuapp.com
+(Because heroku puts apps to idle mode if not used for some time, it may take few seconds until it will startup up again)
+
 # IMPORTANT
 Because I added sub-repositories to deploy it to heroku and github
 does not display it I created separate repositories:
 - front: https://github.com/butterfly-123/fullstack-course-front
 - backend: https://github.com/butterfly-123/fullstack-course-backend
-- link to page: https://dragon-fullstack-front.herokuapp.com/login
 
 # Deploy to heroku and configuration
 **Heroku** - allows developers to quickly and almost painlessly deploy an application on a web server. It also provides a lot of plugins that you can integrate into your application.
